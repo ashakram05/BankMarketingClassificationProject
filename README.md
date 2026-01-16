@@ -73,22 +73,28 @@ The work is implemented in a single Jupyter Notebook and is suitable for academi
 * Accuracy Score
 * Confusion Matrix
 * Precision, Recall, F1-Score (Classification Report)
+---
 
-📦 Bank-Marketing-ML
-┣ 📜 finalProject.ipynb
-┣ 📜 README.md
-┣ 📂 data/
-┃ ┗ 📜 bank.csv
-┗ 📂 ScreenShots/
-┗ 📂 EDA/
-┣ 📸 AgeDistribution.png
-┣ 📸 OriginalBalanceDistribution.png
-┣ 📸 LogTransformedBalance.png
-┣ 📸 ageVsBalanca.png
-┣ 📸 balanceVsDeposit.png
-┣ 📸 contactVsDeposit.png
-┣ 📸 jobTypeVsDeposit.png
-┗ 📸 ModelPerformanceComparison.png
+## 📂 Project Structure
+
+```
+BankMarketingClassificationProject/
+├── finalProject (1).ipynb
+├── README.md
+├── data/
+│   └── bank.csv
+└── ScreenShots/
+    ├── ModelPerformanceComparison.png
+    └── EDA/
+        ├── AgeDistribution.png
+        ├── OriginalBalanceDistribution.png
+        ├── LogTransformedBalance.png
+        ├── ageVsBalanca.png
+        ├── balanceVsDeposit.png
+        ├── contactVsDeposit.png
+        └── jobTypeVsDeposit.png
+```
+
 
 ### ▶ Option 1: Run on Google Colab
 
